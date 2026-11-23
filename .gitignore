@@ -1,0 +1,93 @@
+# ==============================================================================
+# LinkedIn Growth System - Comprehensive Git Hygiene & Security Specification
+# ==============================================================================
+
+# Executables, Installers & Binaries (Strict Exclusion - Zero Bloat)
+*.exe
+*.dll
+*.winmd
+*.msi
+*.bin
+*.iso
+*.dmg
+
+# Archives & Compressed Data
+*.zip
+*.7z
+*.tar.gz
+*.tar
+*.rar
+*.gz
+*.skill
+
+# Raw LinkedIn Data Export Archives & PII (Phone numbers, private messages, raw contact tables)
+/Complete_LinkedInDataExport*
+Complete_LinkedInDataExport*
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Temporary & Microsoft Office Lock Files
+~$*
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Office Documents, PDFs & Non-repo media
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+heatig agets.png
+
+# Environment Files, Secrets & Private Keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+credentials/
+secrets/
+
+# Agent Workspaces & Telemetry
+.agents/
+
+# Root legacy drafts (Canonical versions live in knowledge/ and assets/)
+/Ashutosh_Bhandekar_LinkedIn_Profile_Analysis.md
+/leadmagnet.md
+
+# Python & Node Runtime Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.venv/
+env/
+venv/
+ENV/
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
+$RECYCLE.BIN/
+
+# IDE & Editor Specific Metadata
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

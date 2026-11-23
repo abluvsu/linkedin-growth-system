@@ -1,0 +1,54 @@
+You send 50 resumes and hear nothing back.
+You assume the algorithm rejected you.
+You are actually failing the human test.
+
+48 hours ago, I launched CareerFlow.
+It is a 7-stage AI pipeline to beat the ATS.
+
+58 job seekers logged in. 
+
+Watching them use it taught me one brutal lesson.
+
+You are stuffing your resume with keywords to beat the algorithm. 
+But when the recruiter actually reads it...
+It looks like a robot wrote it.
+
+So I spent 20 hours this weekend rebuilding the entire platform.
+
+Here is what it does for you now:
+
+1. It forces you to write for humans.
+I hardcoded 20+ strict recruiter best practices into the AI.
+It structures your achievements exactly how a hiring manager wants to read them.
+
+2. It stops you from starting over.
+I added Google and LinkedIn login. 
+Your profile context is saved. You pick up exactly where you left off. 
+
+3. It shows you the formula.
+Resume builders are usually black boxes.
+The new UI shows you the LLM's thought process in real-time. 
+You learn why certain bullets work better while the AI writes them.
+
+I am not a career coach. 
+I build production AI systems. 
+
+I built this to solve a technical problem.
+But running a heavy AI pipeline across 5 models is expensive.
+
+If I leave this fully public, the server costs will kill it.
+So I am gating access. 
+
+I only want people inside who genuinely want to use it to land interviews.
+
+The platform is live here: https://abluvsu1998-careerflow.hf.space
+(But you will hit a lock screen).
+
+Here is how to get the access code:
+
+1. Comment "access code" and I will DM you a standard pass.
+2. Repost this, and I will give you the master key. Free, unlimited, for life.
+
+(We are also starting a private community for job seekers. Link is in the comments).
+
+Let's break the system.

@@ -1,0 +1,42 @@
+We hit 58 logins in 48 hours.
+The AI was smart. The UX was broken.
+
+I build production AI systems for a living.
+So when I shipped the first version of CareerFlow, I expected a few friends to test it.
+
+Instead, strangers started logging in. 
+
+Watching them use the pipeline broke all my assumptions. The core engine was rewriting resumes perfectly. But the experience of actually using the tool was clunky.
+
+When you are applying for roles, you do not have the patience for bad UX.
+
+So I spent 20+ hours this weekend tearing down the architecture and rebuilding it.
+
+If you are stuck in the ATS black hole right now, here is what this pipeline does for you:
+
+1. It stops you from starting from scratch
+I integrated Google and LinkedIn OAuth. The system now remembers your profile data across sessions. You log in, pick up where you left off, and keep applying.
+
+2. It writes for recruiters, not algorithms
+I hardcoded 20+ strict resume best practices directly into the prompt chain. It doesn't just stuff keywords to beat a filter. It structures your achievements exactly how hiring managers want to read them.
+
+3. It shows you the math
+Most AI tools are black boxes. You put data in, you get a PDF out. Not this one. The new UI shows you the LLM's thought process simultaneously. You see exactly why it is making the decisions it makes.
+
+I built this to solve a problem. I am not monetizing it.
+But running a 7-stage LLM pipeline is expensive, and token bills are real.
+
+If I leave this completely open, the server costs will kill it.
+So I am gating access. I only want people inside who genuinely want to use it and give feedback.
+
+The platform is live here: https://abluvsu1998-careerflow.hf.space
+(But you will hit a lock screen).
+
+Here is how to get the access code:
+
+1. Comment "access code" and I will DM you a standard pass.
+2. Repost this, and I will give you the master key. Free, unlimited, for life.
+
+(P.S. We are also spinning up a private community for job seekers to share workflows, hunt for roles, and tell me what to build next. Link is in the comments).
+
+Let's break the system.
