@@ -1,0 +1,4 @@
+# LinkedIn Growth System Dependencies
+
+# Model Context Protocol (MCP) Python SDK for Automation Engine scripts
+mcp>=1.0.0
